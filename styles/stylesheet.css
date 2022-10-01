@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* ============ Universal Styles ============ */
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+.table tr,
+.table tr td{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#table .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: #5161ce;
+    color: #fff;
+}
+.cart-qty-plus{
+    background-color:#00a5e8;
+    color:white;
+    font-weight: 600;
+}
+.cart-qty-minus{
+    background-color:#00a5e8;
+    color:white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.mainContainer{
+    /* background-color: #999; */
+    height: 100vh;
+    width: 100vw;
+}
+.leftNavSection{
+    background: cornflowerblue;
+    height: 100vh;
+    
+}
+.dynamicBodyBox{
+    background: #fff;
+    min-height:450px;
+}
+.topNavSection{
+    background: cornflowerblue;
+    height: 60px;
+    padding: 2px;
+}
+.footerSection{
+    background: cornflowerblue;
+    color:#fff;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    text-align:center;
+    width:97%;
+}
+.delete{
+    background: peru;
+    color:#fff;
+    text-align: center;
+}
+.checkbox{
+    padding: 3px;
+}
+.checkbox input[type="checkbox"]{
+    margin: 0;
+    margin-left: -80px;
+    margin-top: 4px;
+}
+.checkbox .checkboxLabel{
+    color: #000;
+    font-size: 15px;
+    margin: 0;
+    padding-left: 21px;
+}
+/* ============ Left Nav Section Styles ============ */
+.topLeftLogo{
+    background: #fff;
+    border: 2px solid #00f;
+    height:70px;
+    line-height: 70px;
+    text-align: center;
+}
+.topLeftLogo h2 > span{
+    color:cornflowerblue;
+    font-weight: bolder;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul li{
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+ul li:hover{
+    background: #fff;
+    color: cornflowerblue;
+}
+ul li.active{
+    background: #fff;
+}
+ul li.active > a{
+    color: cornflowerblue;
+}
+ul li:hover > a{
+    background: #fff;
+    color: cornflowerblue;
+}
+
+ul li a{
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+ul li a:hover{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+/* ============ Top Nav Section ============ */
+.topNavLeftSection h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+.topNavRightSection{
+    border-left: 2px solid #fff;
+}
+.topNavRightSection img{
+    margin-top: -9px;
+}
+.topNavRightSection h1{
+    color:#fff;
+    display: inline;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 60px;
+    text-align: center;
+}
+
+.dynamicBodyNav{
+    background:cornflowerblue;
+    height: 50px;
+    margin-top: 5px;
+}
+.dynamicBodyNav ul{
+    margin: 5px;
+    padding: 15px;
+}
+
+.dynamicBodyNav ul li{
+    cursor: pointer;
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+}
+
+.dynamicMainBodyBox{
+    /* background: red; */
+    height: 480px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.dynamicMainBodyBox form label{
+    color: #000;
+    display: block;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.dynamicMainBodyBox form input{
+    border:1px solid cornflowerblue;
+    border-radius: 3px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 90%;
+}
+.dynamicMainBodyBox form input[type="submit"]{
+    border:2px solid cornflowerblue;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 90%;
+}
+/* .dynamicMainBodyBoxUpdate label{
+    background: red;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    margin: 5px;
+    padding-left: 30px;
+} */
+.dynamicMainBodyBoxUpdate form input{
+    border:1px solid cornflowerblue;
+    border-radius: 3px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 90%;
+}
+.dynamicMainBodyBoxUpdate input[type="submit"]{
+    /* background: red; */
+    margin: 5px auto;
+    padding: 5px;
+    width: 90%;
+}
+
+/* ============ Login Styles============ */
+.carosuelContainer{
+    /* background: red; */
+    background: url("../assets/2.jpg") no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+/* .carosuelContainer::before{
+    content:"";
+    background: red;
+} */
+
+.loginBox{
+    background: rgba(1, 141, 141, .5);
+    border-radius: 5px;
+    height: 400px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.loginBox h2{
+    color: #fff;
+    text-align: center;
+}
+.loginBox h2 span{
+    color:red;
+    font-weight: bolder;
+}
+
+.mainLoginBox{
+    /* background:#fff; */
+    display: block;
+    height: 300px;
+    margin: 30px auto;
+    width: 450px;
+}
+
+.mainLoginBox form label{
+    color:#fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.mainLoginBox form input{
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width:95%;
+}
+
+.mainLoginBox form input[type="submit"]{
+    /* background: green; */
+    margin-top: 20px;
+    width:50%;
+}
